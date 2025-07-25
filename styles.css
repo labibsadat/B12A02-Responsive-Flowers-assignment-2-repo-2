@@ -45,6 +45,7 @@ color: #8987A1;
 /* header part */
 body{
   margin: 30px  150px   ;
+ 
 }
 nav{
 display: flex;
@@ -58,9 +59,122 @@ text-decoration: none;
 nav ul li{
 list-style: none;
 }
+ /* plant lover section  */
+ .plant-lover-container{
+   
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+ }
+
+.plant-lover-images{
+border: 5px solid gray;
+
+  position: relative;
+width: 600px;
+overflow: visible;
+  
+ 
+ 
+}
+.flower-store-img{
+width: 100%;
+display: block;
+
+}
+.badge-img{
+position: absolute;
+margin-left: 250px;
+margin-top: -65px;
+width:150px ;
+
+}
+
+.plant-lover-description{
+  margin-left: 50px;
+}
+.plant-lover-title{
+  width: 70%;
+}
+
+.plant-lover-sub-title ul li{
+  list-style-type: disc;
+}
+
+/* join section */
+
+.join-section{
+ 
+  background-image: url("assets/news-letter-bg.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+ width: 100%; 
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ margin: 0 auto;
 
 
 
+ overflow: hidden;
+ margin-bottom: 70px;
+
+}
+
+
+
+
+.join-section-title{
+color: white;
+text-align: center;
+margin-bottom: 30px;
+
+}
+
+.join-subscription{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.join-subscription form{
+display: flex;
+justify-content: center;
+align-items: center;
+ height: 50px;
+background-color: white;
+max-width: 800px;
+
+}
+
+ form input[type="email"]{
+  
+  
+    border-radius: 5px;
+  width: 700px;
+
+    display: block;
+ 
+  border: none; 
+  padding: 20px ;
+outline: none;
+  border: none;
+ 
+}
+.join-btn{
+  background-color: #E95A08;
+  color: white;
+  font-size: 1rem;
+ padding: 10px 20px;
+  width: 180px;
+  height: 50px;
+ 
+}
 
 
 
@@ -117,6 +231,44 @@ margin: auto;
 width: 100%;
 
 }
+
+/* plant lover section */
+.plant-lover-container{
+   display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.plant-lover-images{
+  width: calc(100% - 20px);
+  margin-left :10px;
+  margin-right: 10px;
+}
+.plant-lover-title{
+  width:100%;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-left :10px;
+  margin-right: 10px;
+  
+}
+
+/* join section */
+
+.join-section{
+  width: 100%;
+
+ 
+}
+
+.join-section-title{
+font-size: 2.1rem;
+}
+.join-subscription form{
+  width: 80%;
+}
+
 
 }
 
