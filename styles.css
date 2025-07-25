@@ -45,6 +45,7 @@ color: #8987A1;
 /* header part */
 body{
   margin: 30px  150px   ;
+   overflow-x: hidden;
  
 }
 nav{
@@ -109,19 +110,23 @@ width:150px ;
 background-repeat: no-repeat;
 background-size: cover;
 
- width: 100%; 
+ width: 100vw; 
   background-position: center;
   height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
- margin: 0 auto;
+  position: relative;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
 
 
 
- overflow: hidden;
+
+
  margin-bottom: 70px;
 
 }
@@ -173,6 +178,24 @@ outline: none;
  padding: 10px 20px;
   width: 180px;
   height: 50px;
+ 
+}
+/* footer styles */
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.footer-icon{
+display: flex;
+justify-content: end;
+ margin-right: -120px;
+ 
+
+}
+.footer-description{
+  width:360px;
+  height: 180px;
  
 }
 
@@ -262,11 +285,34 @@ width: 100%;
  
 }
 
+
 .join-section-title{
 font-size: 2.1rem;
 }
 .join-subscription form{
   width: 80%;
+}
+
+footer{
+  overflow-x: hidden;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+ 
+
+}
+.footer-icon{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.footer-ul ul li{
+ margin-bottom: 25px;
 }
 
 
