@@ -69,30 +69,31 @@ list-style: none;
  }
 
 .plant-lover-images{
-border: 5px solid gray;
-
-  position: relative;
 width: 600px;
 overflow: visible;
-  
+ position: relative; 
+ margin:0 ;
+ padding: 0;
  
  
 }
 .flower-store-img{
-width: 100%;
+width: 1140px;
 display: block;
+
 
 }
 .badge-img{
 position: absolute;
-margin-left: 250px;
-margin-top: -65px;
-width:150px ;
+right: -100px;
+top: -70px;
+width:260px;
+
 
 }
 
 .plant-lover-description{
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .plant-lover-title{
   width: 70%;
@@ -100,6 +101,10 @@ width:150px ;
 
 .plant-lover-sub-title ul li{
   list-style-type: disc;
+  margin-bottom: 20px;
+}
+.plant-lover-sub-title{
+  width: 540px;
 }
 
 /* join section */
@@ -268,13 +273,20 @@ width: 100%;
   margin-left :10px;
   margin-right: 10px;
 }
+ .plant-lover-sub-title{
+  width: calc(100% - 20px);
+  
+} 
 .plant-lover-title{
   width:100%;
-  font-size: 2.1rem;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-left :10px;
-  margin-right: 10px;
-  
+  margin-left: -20px;
+ 
+}
+.plant-lover-description {
+  width: 90%;
+  margin-left: 40px;
 }
 
 /* join section */
